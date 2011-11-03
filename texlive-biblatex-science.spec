@@ -1,3 +1,9 @@
+# revision 21721
+# category Package
+# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-science
+# catalog-date 2011-03-13 14:25:22 +0100
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-biblatex-science
 Version:	1.1
 Release:	1
@@ -41,6 +47,7 @@ when preparing papers for submission to the journal Science.
 %doc %{_texmfdistdir}/doc/latex/biblatex-science/README
 %doc %{_texmfdistdir}/doc/latex/biblatex-science/biblatex-science.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-science/biblatex-science.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ when preparing papers for submission to the journal Science.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
