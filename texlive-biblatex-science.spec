@@ -1,13 +1,13 @@
-# revision 27235
+# revision 27441
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-science
-# catalog-date 2012-06-08 18:13:51 +0200
+# catalog-date 2012-08-17 01:02:17 +0200
 # catalog-license lppl
-# catalog-version 1.1b
+# catalog-version 1.1c
 Name:		texlive-biblatex-science
-Version:	1.1b
+Version:	1.1c
 Release:	1
-Summary:	Biblatex support for Science
+Summary:	Biblatex implementation of the Science bibliography style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-science
 License:	LPPL
