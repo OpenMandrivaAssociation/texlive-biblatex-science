@@ -1,13 +1,13 @@
-# revision 27441
+# revision 27235
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-science
-# catalog-date 2012-08-17 01:02:17 +0200
+# catalog-date 2012-06-08 18:13:51 +0200
 # catalog-license lppl
-# catalog-version 1.1c
+# catalog-version 1.1b
 Name:		texlive-biblatex-science
-Version:	1.1c
+Version:	1.1b
 Release:	1
-Summary:	Biblatex implementation of the Science bibliography style
+Summary:	Biblatex support for Science
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-science
 License:	LPPL
@@ -48,3 +48,22 @@ when preparing papers for submission to the journal Science.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1b-1
++ Revision: 812052
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
++ Revision: 749687
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 717933
+- texlive-biblatex-science
+- texlive-biblatex-science
+- texlive-biblatex-science
+- texlive-biblatex-science
+- texlive-biblatex-science
+
