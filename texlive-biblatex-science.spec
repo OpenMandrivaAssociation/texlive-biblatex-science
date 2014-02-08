@@ -6,7 +6,7 @@
 # catalog-version 1.1b
 Name:		texlive-biblatex-science
 Version:	1.1b
-Release:	1
+Release:	2
 Summary:	Biblatex support for Science
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-science
