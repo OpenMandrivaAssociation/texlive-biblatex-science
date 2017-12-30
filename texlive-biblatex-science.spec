@@ -1,12 +1,6 @@
-# revision 28970
-# category Package
-# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-science
-# catalog-date 2013-01-28 09:21:48 +0100
-# catalog-license lppl
-# catalog-version 1.1d
 Name:		texlive-biblatex-science
-Version:	1.1d
-Release:	9
+Version:	1.1g
+Release:	1
 Summary:	Biblatex implementation of the Science bibliography style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-science
@@ -32,12 +26,8 @@ when preparing papers for submission to the journal Science.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/biblatex-science/science.bbx
-%{_texmfdistdir}/tex/latex/biblatex-science/science.cbx
-%doc %{_texmfdistdir}/doc/latex/biblatex-science/README
-%doc %{_texmfdistdir}/doc/latex/biblatex-science/biblatex-science.bib
-%doc %{_texmfdistdir}/doc/latex/biblatex-science/biblatex-science.pdf
-%doc %{_texmfdistdir}/doc/latex/biblatex-science/biblatex-science.tex
+%{_texmfdistdir}/tex/latex/biblatex-science
+%doc %{_texmfdistdir}/doc/latex/biblatex-science
 
 #-----------------------------------------------------------------------
 %prep
