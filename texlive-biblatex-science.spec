@@ -1,6 +1,6 @@
 Name:		texlive-biblatex-science
 Version:	1.1g
-Release:	1
+Release:	2
 Summary:	Biblatex implementation of the Science bibliography style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-science
